@@ -35,3 +35,5 @@ Select * from AddressBook
 
 Select city, Count(City) from AddressBook where City='dharwad' Group by city;
 Select state ,Count(State) from AddressBook where State='karnataka' Group by state;
+
+Select * from AddressBook where City='dharwad' order by FirstName;
