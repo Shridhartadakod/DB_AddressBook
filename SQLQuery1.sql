@@ -21,3 +21,7 @@ Insert into AddressBook (FirstName,LastName,Address,City,State,Zip,PhoneNumber) 
 ('Venkatesh','Gavade','ghandinagr','dharwad','karnataka',580008,9256245320),
 ('Dhanshree','Hakke','ghandinagr','dharwad','karnataka',580007,8421729091)
 
+
+Update AddressBook set PhoneNumber=9765721521 where FirstName ='Venkatesh'
+Update AddressBook set LastName='Patil' where  FirstName='Dhanshree'
+Select * from AddressBook
