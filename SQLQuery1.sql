@@ -45,3 +45,5 @@ Update AddressBook set Type = 'Friends' where FirstName='harish';
 Update AddressBook set Type = 'Professional' where FirstName='Venkatesh';
 Update AddressBook set Type = 'Family' where FirstName='Dhanshree';
 Alter Table AddressBook drop Column ContactType 
+
+Select Type,Count(Type) as Records from AddressBook where Type='Family' Group by Type;
