@@ -25,3 +25,7 @@ Insert into AddressBook (FirstName,LastName,Address,City,State,Zip,PhoneNumber) 
 Update AddressBook set PhoneNumber=9765721521 where FirstName ='Venkatesh'
 Update AddressBook set LastName='Patil' where  FirstName='Dhanshree'
 Select * from AddressBook
+
+Delete from AddressBook where FirstName='Shridhar' And LastName='tadakod'
+Select * from AddressBook
+
