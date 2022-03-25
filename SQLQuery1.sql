@@ -37,3 +37,11 @@ Select city, Count(City) from AddressBook where City='dharwad' Group by city;
 Select state ,Count(State) from AddressBook where State='karnataka' Group by state;
 
 Select * from AddressBook where City='dharwad' order by FirstName;
+
+
+Alter Table AddressBook Add 
+Type varchar(20);
+Update AddressBook set Type = 'Friends' where FirstName='harish';
+Update AddressBook set Type = 'Professional' where FirstName='Venkatesh';
+Update AddressBook set Type = 'Family' where FirstName='Dhanshree';
+Alter Table AddressBook drop Column ContactType 
