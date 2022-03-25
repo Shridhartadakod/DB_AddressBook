@@ -29,3 +29,5 @@ Select * from AddressBook
 Delete from AddressBook where FirstName='Shridhar' And LastName='tadakod'
 Select * from AddressBook
 
+Select * from AddressBook where City='dharwad' or State='karnataka'
+Select * from AddressBook
